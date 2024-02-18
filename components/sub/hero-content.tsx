@@ -45,15 +45,22 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Engineer by Degree & Passion.
-        </motion.p>
+         Welcome to my portfolio! I'm Akshat Kumar, a passionate final-semester BTech Computer Science student with a keen interest in cutting-edge technologies. Throughout my academic journey, I've delved deep into the world of MERN stack development, mastering its intricacies and applying them creatively to various projects.
 
+With a foundation built on solid theoretical knowledge and practical expertise, I've had the privilege of completing three enriching internships and a freelance project. Currently, I'm immersed in the fascinating realm of WebRTC technology, exploring its capabilities and pushing boundaries to create seamless real-time communication solutions.
+
+Driven by a relentless curiosity and a thirst for knowledge, I'm eagerly diving into the world of Next.js 14, poised to unlock its full potential and integrate it seamlessly into my skill set.
+
+As I approach the culmination of my academic journey, I am excited about the opportunities that lie ahead and the chance to contribute meaningfully to the ever-evolving landscape of technology. Join me as I embark on this exhilarating journey of innovation and discovery.
+      
+        </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-1 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn more
+           Engineer by Degree & Passion.
         </motion.a>
+    
       </div>
 
       <motion.div
